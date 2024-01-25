@@ -9,7 +9,7 @@ class BaseConnectionModel(ABC):
         self.server_port = server_port
 
     @abstractmethod
-    def connect(self, isClient: bool):
+    def connect(self):
         pass
 
 def provideConnectionModel(isClient: bool, server_ip_addr=server_ip, server_port=default_io_port, commandData: DataCommand = None):

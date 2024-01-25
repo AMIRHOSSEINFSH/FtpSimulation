@@ -4,6 +4,7 @@ import os
 DIS_ONNECTION_STATUS = "<END>"
 FTP_SERVER_STORAGE_PATH = "G:/Courses/Network/FtpSimulation/ftpServer/storage/"
 FTP_CLIENT_STORAGE_PATH = "G:/Courses/Network/FtpSimulation/ftpClient/storage/"
+FTP_CLIENT_MESSAGE_TOPIC = "FTP_CLIENT_MESSAGE_TOPIC"
 server_ip = "127.0.0.1"
 default_command_port = 2121
 default_io_port = 2222
